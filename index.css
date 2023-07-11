@@ -1,27 +1,23 @@
-body {
+* {
     font-family: 'Architects Daughter', cursive;
 }
 
-header,
-h1 {
+h1,
+main,
+section {
     text-align: center;
 }
 
-main,
-section {
-    display: flex;
-    justify-content: center;
-}
-
 button {
+    margin: 5px;
     height: 50px;
     width: 100px;
-    margin: 10px;
     border: gray;
     border-radius: 50%;
     cursor: pointer;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: yellow;
+    border: 1px solid black;
 }
